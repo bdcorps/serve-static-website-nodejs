@@ -1,5 +1,6 @@
 var express = require("express"),
   path = require("path"),
+  bodyParser = require("body-parser"),
   app = express();
 
 var port = process.env.PORT || 3000;
